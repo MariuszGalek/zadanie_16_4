@@ -1,0 +1,28 @@
+.TodoForm {
+    margin-top: 50px;
+}
+.TodoForm form {
+    border: 1px solid green;
+}
+.TodoForm input {
+    padding: 15px;
+    border: none;
+    height: 25px;
+    width: 250px;
+    font-size: 16px;
+}
+.TodoForm button {
+    border: none;
+    height: 55px;
+    width: 50px;
+    font-size: 18px;
+}
+.TodoForm button:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+.TodoForm p {
+    color: green;
+    text-align: center;
+}

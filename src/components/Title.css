@@ -1,0 +1,14 @@
+ @import url('https://fonts.googleapis.com/css?family=Acme');
+
+.appTitle {
+    border: 1px solid green;
+    text-align: center;
+    padding: 20px;
+}
+.appTitle h1 {
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2px;
+}
+.appTitle p {
+    font-size: 18px;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './TodoForm.css';
 
 class TodoForm extends React.Component {
     constructor() {
@@ -23,7 +24,7 @@ class TodoForm extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className={style.TodoForm}>
                 <form onSubmit={event => this.onSubmit(event)}>
                     <input
                     ref={input => input && input.focus()}
